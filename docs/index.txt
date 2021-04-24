@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Benjamin Robinson</title>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+
+    <body >
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Home">Resume</a></li>
+                    <li><a href="Home">Fall 2021 Schedule</a></li>
+                </ul>
+            </nav>   
+        </header> 
+
+        <main>  
+            <div id="main">
+                <article>
+                    MY MAIN SHIT
+                </article>
+            </div>
+            
+        </main>
+
+    </body>
+</html>
