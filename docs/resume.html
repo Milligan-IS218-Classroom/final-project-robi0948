@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="resumestyles.css" />
     <link rel="stylesheet" media="screen and (max-width:800px)" href="mobile.css" />
     <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,45 +23,38 @@
             </ul>
         </nav>
 
-        <section id="">
-            <h1 class="headings">View and Download MY Resume!</h1>
-             <div id="">
-                <img src="resume.png" alt="">
-                <div id="">
-                    <p id="">                         
-                    
-                        
-                     <button id="download-pdf">DOWNLOAD MY RESUME HERE</button>
-                        <script>
-                            const downloadPdf = document
+        <h1 class="headings">Benjamin's Resume</h1>
+            <div id="maybe">
+                <img id="pdf" src="resume.png" alt="" >
+                <button id="resumebtn" id="download-pdf">DOWNLOAD MY RESUME HERE</button>
+                    <script>
+                        const downloadPdf = document
                                 .querySelector("#download-pdf");
                       
-                            const submitForm = document
+                        const submitForm = document
                                 .querySelector("#submit-form");
                       
-                            downloadPdf.addEventListener("click", () => {
+                        downloadPdf.addEventListener("click", () => {
                       
                                 
-                                let element = document.createElement("a");
-                                element.href = "./resume.docx.pdf";
-                                element.download = "resume.docx.pdf";
+                        let element = document.createElement("a");
+                        element.href = "./resume.docx.pdf";
+                        element.download = "resume.docx.pdf";
                       
                                
-                                document.documentElement.appendChild(element);
+                        document.documentElement.appendChild(element);
                       
                              
-                                element.click();
+                        element.click();
                       
                                
-                                document.documentElement.removeChild(element);
+                        document.documentElement.removeChild(element);
                       
                                 
-                                submitForm.click();
-                            });
-                        </script> 
-                    </p>
-                </div>
+                        submitForm.click();
+                        });
+                     </script>
             </div>
-        </section>
-        
+    
+
 </body>

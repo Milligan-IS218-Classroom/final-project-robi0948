@@ -44,6 +44,31 @@
     width: 20%;
 }
 
+/* Resume */
+
+#maybe {
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 475px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#pdf {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+#download-pdf {
+    width: 75%;
+    
+}
 
 
 

@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-image: url(schbackground.jpg);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -79,6 +87,7 @@ html {
     font-family: Century;
     font-size: 3rem;
     text-align: center;
+    font-style: italic;
 }
 
 .btn {
@@ -95,9 +104,8 @@ html {
 .btn:hover {
     cursor: pointer;
     background-color: white;
-    color: white;
+    color: rgb(0, 0, 0);
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
-    font-weight: bold;
 }
 
 #resumebtn {
@@ -136,7 +144,10 @@ html {
 
 
 #please {
-    font-size: 20px;
+    font-size: 28px;
+    padding-right: 15%;
+    padding-left: 15%;
+    align-items: right;
 
 }
 
