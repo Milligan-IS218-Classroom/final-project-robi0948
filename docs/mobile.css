@@ -1,0 +1,95 @@
+/* Nav mobile stuff */
+
+.navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Heading */
+.heading {
+    font-size: 2.5rem;
+}
+
+
+/* About Mobile Styling */
+
+#pic {
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic img {
+    width: 475px;
+    height: 300px;
+}
+
+#intro h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Contact */
+
+.input {
+    width: 60%;
+}
+
+#msg {
+    width: 55%;
+}
+
+#send {
+    width: 20%;
+}
+
+/* Resume */
+
+#maybe {
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 475px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#pdf {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+#download-pdf {
+    width: 75%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
